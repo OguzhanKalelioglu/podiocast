@@ -1,8 +1,10 @@
 <template>
   <div class="container">
+
     <CThemeProvider>
       <CColorModeProvider>
         <CBox font-family="body" as="main">
+            <Navbar />
           <CReset />
           <Nuxt />
         </CBox>
@@ -18,13 +20,19 @@ import {
   CBox
 } from '@chakra-ui/vue'
 
+import Navbar from '../components/Navbar'
+
 export default {
   name: 'App',
   components: {
     CThemeProvider,
     CColorModeProvider,
     CReset,
-    CBox
+    CBox,
+  },
+  components : {
+    Navbar
   }
 }
+
 </script>

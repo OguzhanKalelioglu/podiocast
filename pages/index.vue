@@ -21,13 +21,6 @@
             } mode`"
             @click="toggleColorMode"
           />
-          <CButton
-            left-icon="info"
-            variant-color="blue"
-            @click="showToast"
-          >
-            Show Toast
-          </CButton>
         </CBox>
         <CAvatarGroup>
           <CAvatar

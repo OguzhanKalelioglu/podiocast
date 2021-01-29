@@ -7,11 +7,12 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "heroku-postbuild" : "npm run build"
+    "heroku-postbuild": "npm run build"
   },
   "dependencies": {
     "@chakra-ui/nuxt": "^0.2.4",
     "@nuxt/content": "^1.11.1",
+    "@nuxt/http": "^0.6.2",
     "@nuxtjs/axios": "^5.12.5",
     "@nuxtjs/emotion": "^0.1.0",
     "@nuxtjs/pwa": "^3.3.4",
